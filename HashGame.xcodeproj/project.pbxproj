@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1874A54A26AE8C3F001C66FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874A54926AE8C3F001C66FB /* AppDelegate.swift */; };
+		1874A54C26AE8C3F001C66FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874A54B26AE8C3F001C66FB /* SceneDelegate.swift */; };
+		1874A54E26AE8C3F001C66FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874A54D26AE8C3F001C66FB /* ViewController.swift */; };
+		1874A55126AE8C3F001C66FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874A54F26AE8C3F001C66FB /* Main.storyboard */; };
+		1874A55326AE8C41001C66FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1874A55226AE8C41001C66FB /* Assets.xcassets */; };
+		1874A55626AE8C41001C66FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1874A55426AE8C41001C66FB /* LaunchScreen.storyboard */; };
+		1874A56126AE8C42001C66FB /* HashGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874A56026AE8C42001C66FB /* HashGameTests.swift */; };
+		1874A56C26AE8C42001C66FB /* HashGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1874A56B26AE8C42001C66FB /* HashGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1874A55D26AE8C42001C66FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1874A53E26AE8C3F001C66FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1874A54526AE8C3F001C66FB;
+			remoteInfo = HashGame;
+		};
+		1874A56826AE8C42001C66FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1874A53E26AE8C3F001C66FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1874A54526AE8C3F001C66FB;
+			remoteInfo = HashGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1874A54626AE8C3F001C66FB /* HashGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HashGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874A54926AE8C3F001C66FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1874A54B26AE8C3F001C66FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1874A54D26AE8C3F001C66FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1874A55026AE8C3F001C66FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1874A55226AE8C41001C66FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1874A55526AE8C41001C66FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1874A55726AE8C41001C66FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874A55C26AE8C42001C66FB /* HashGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874A56026AE8C42001C66FB /* HashGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashGameTests.swift; sourceTree = "<group>"; };
+		1874A56226AE8C42001C66FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1874A56726AE8C42001C66FB /* HashGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HashGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1874A56B26AE8C42001C66FB /* HashGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashGameUITests.swift; sourceTree = "<group>"; };
+		1874A56D26AE8C42001C66FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1874A54326AE8C3F001C66FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874A55926AE8C42001C66FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874A56426AE8C42001C66FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1874A53D26AE8C3F001C66FB = {
+			isa = PBXGroup;
+			children = (
+				1874A54826AE8C3F001C66FB /* HashGame */,
+				1874A55F26AE8C42001C66FB /* HashGameTests */,
+				1874A56A26AE8C42001C66FB /* HashGameUITests */,
+				1874A54726AE8C3F001C66FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1874A54726AE8C3F001C66FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1874A54626AE8C3F001C66FB /* HashGame.app */,
+				1874A55C26AE8C42001C66FB /* HashGameTests.xctest */,
+				1874A56726AE8C42001C66FB /* HashGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1874A54826AE8C3F001C66FB /* HashGame */ = {
+			isa = PBXGroup;
+			children = (
+				1874A54926AE8C3F001C66FB /* AppDelegate.swift */,
+				1874A54B26AE8C3F001C66FB /* SceneDelegate.swift */,
+				1874A54D26AE8C3F001C66FB /* ViewController.swift */,
+				1874A54F26AE8C3F001C66FB /* Main.storyboard */,
+				1874A55226AE8C41001C66FB /* Assets.xcassets */,
+				1874A55426AE8C41001C66FB /* LaunchScreen.storyboard */,
+				1874A55726AE8C41001C66FB /* Info.plist */,
+			);
+			path = HashGame;
+			sourceTree = "<group>";
+		};
+		1874A55F26AE8C42001C66FB /* HashGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				1874A56026AE8C42001C66FB /* HashGameTests.swift */,
+				1874A56226AE8C42001C66FB /* Info.plist */,
+			);
+			path = HashGameTests;
+			sourceTree = "<group>";
+		};
+		1874A56A26AE8C42001C66FB /* HashGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1874A56B26AE8C42001C66FB /* HashGameUITests.swift */,
+				1874A56D26AE8C42001C66FB /* Info.plist */,
+			);
+			path = HashGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1874A54526AE8C3F001C66FB /* HashGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874A57026AE8C42001C66FB /* Build configuration list for PBXNativeTarget "HashGame" */;
+			buildPhases = (
+				1874A54226AE8C3F001C66FB /* Sources */,
+				1874A54326AE8C3F001C66FB /* Frameworks */,
+				1874A54426AE8C3F001C66FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HashGame;
+			productName = HashGame;
+			productReference = 1874A54626AE8C3F001C66FB /* HashGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1874A55B26AE8C42001C66FB /* HashGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874A57326AE8C42001C66FB /* Build configuration list for PBXNativeTarget "HashGameTests" */;
+			buildPhases = (
+				1874A55826AE8C42001C66FB /* Sources */,
+				1874A55926AE8C42001C66FB /* Frameworks */,
+				1874A55A26AE8C42001C66FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1874A55E26AE8C42001C66FB /* PBXTargetDependency */,
+			);
+			name = HashGameTests;
+			productName = HashGameTests;
+			productReference = 1874A55C26AE8C42001C66FB /* HashGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1874A56626AE8C42001C66FB /* HashGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1874A57626AE8C42001C66FB /* Build configuration list for PBXNativeTarget "HashGameUITests" */;
+			buildPhases = (
+				1874A56326AE8C42001C66FB /* Sources */,
+				1874A56426AE8C42001C66FB /* Frameworks */,
+				1874A56526AE8C42001C66FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1874A56926AE8C42001C66FB /* PBXTargetDependency */,
+			);
+			name = HashGameUITests;
+			productName = HashGameUITests;
+			productReference = 1874A56726AE8C42001C66FB /* HashGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1874A53E26AE8C3F001C66FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1874A54526AE8C3F001C66FB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1874A55B26AE8C42001C66FB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1874A54526AE8C3F001C66FB;
+					};
+					1874A56626AE8C42001C66FB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1874A54526AE8C3F001C66FB;
+					};
+				};
+			};
+			buildConfigurationList = 1874A54126AE8C3F001C66FB /* Build configuration list for PBXProject "HashGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1874A53D26AE8C3F001C66FB;
+			productRefGroup = 1874A54726AE8C3F001C66FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1874A54526AE8C3F001C66FB /* HashGame */,
+				1874A55B26AE8C42001C66FB /* HashGameTests */,
+				1874A56626AE8C42001C66FB /* HashGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1874A54426AE8C3F001C66FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874A55626AE8C41001C66FB /* LaunchScreen.storyboard in Resources */,
+				1874A55326AE8C41001C66FB /* Assets.xcassets in Resources */,
+				1874A55126AE8C3F001C66FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874A55A26AE8C42001C66FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874A56526AE8C42001C66FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1874A54226AE8C3F001C66FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874A54E26AE8C3F001C66FB /* ViewController.swift in Sources */,
+				1874A54A26AE8C3F001C66FB /* AppDelegate.swift in Sources */,
+				1874A54C26AE8C3F001C66FB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874A55826AE8C42001C66FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874A56126AE8C42001C66FB /* HashGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1874A56326AE8C42001C66FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1874A56C26AE8C42001C66FB /* HashGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1874A55E26AE8C42001C66FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1874A54526AE8C3F001C66FB /* HashGame */;
+			targetProxy = 1874A55D26AE8C42001C66FB /* PBXContainerItemProxy */;
+		};
+		1874A56926AE8C42001C66FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1874A54526AE8C3F001C66FB /* HashGame */;
+			targetProxy = 1874A56826AE8C42001C66FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1874A54F26AE8C3F001C66FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874A55026AE8C3F001C66FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1874A55426AE8C41001C66FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1874A55526AE8C41001C66FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1874A56E26AE8C42001C66FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1874A56F26AE8C42001C66FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1874A57126AE8C42001C66FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvvmtableviewapidemo.HashGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1874A57226AE8C42001C66FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvvmtableviewapidemo.HashGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1874A57426AE8C42001C66FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvvmtableviewapidemo.HashGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashGame.app/HashGame";
+			};
+			name = Debug;
+		};
+		1874A57526AE8C42001C66FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvvmtableviewapidemo.HashGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HashGame.app/HashGame";
+			};
+			name = Release;
+		};
+		1874A57726AE8C42001C66FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvvmtableviewapidemo.HashGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HashGame;
+			};
+			name = Debug;
+		};
+		1874A57826AE8C42001C66FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HashGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvvmtableviewapidemo.HashGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HashGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1874A54126AE8C3F001C66FB /* Build configuration list for PBXProject "HashGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874A56E26AE8C42001C66FB /* Debug */,
+				1874A56F26AE8C42001C66FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874A57026AE8C42001C66FB /* Build configuration list for PBXNativeTarget "HashGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874A57126AE8C42001C66FB /* Debug */,
+				1874A57226AE8C42001C66FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874A57326AE8C42001C66FB /* Build configuration list for PBXNativeTarget "HashGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874A57426AE8C42001C66FB /* Debug */,
+				1874A57526AE8C42001C66FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1874A57626AE8C42001C66FB /* Build configuration list for PBXNativeTarget "HashGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1874A57726AE8C42001C66FB /* Debug */,
+				1874A57826AE8C42001C66FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1874A53E26AE8C3F001C66FB /* Project object */;
+}
